@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("🚀 Railway Test Project চলছে ঠিকঠাক!");
+  res.send("Hello from Railway 🚂");
 });
 
 app.listen(PORT, () => {
